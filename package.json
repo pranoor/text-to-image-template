@@ -25,5 +25,8 @@
     "check": "tsc && wrangler deploy --dry-run",
     "deploy": "wrangler deploy",
     "dev": "wrangler dev"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
   }
 }
